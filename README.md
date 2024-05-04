@@ -25,8 +25,9 @@ Validate the HTML and CSS code.
 Publish the website in the given URL.
 
 ## PROGRAM :
-``` 
+
 ## CALCAPP.HTML
+```
 
 <!DOCTYPE html>
 <html lang="en">
@@ -82,9 +83,11 @@ Publish the website in the given URL.
     <script src="index.js"></script>
 </body>
 </html>
+```
 
 ## INDEX.JS
 
+```
 let screen = document.getElementById('screen');
 buttons = document.querySelectorAll('button');
 let screenValue = '';
@@ -110,9 +113,11 @@ for (item of buttons) {
         }
     })
 }
+```
 
 ## STYLE.CSS
 
+```
 .container {
     text-align: center;
     margin-top: 25px;
